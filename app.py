@@ -62,7 +62,7 @@ random.seed(seed)
 n = streamlit.sidebar.number_input(
     'number of hits',
     min_value=2,
-    value=28
+    value=300
 )
 
 tile_size = streamlit.sidebar.slider(
